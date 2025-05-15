@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Benidict Sayson</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Benidict Sayson</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Work Experience</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Contact Me</h1>
+    
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>Email: <a href="mailto:benidict@example.com">benidict@example.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+      <p>Follow me on social media:</p>
+      <ul class="social-links">
+        <li><a href="https://linkedin.com/in/benidict" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/benidictus101" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://twitter.com/benidict" target="_blank" rel="noopener">Twitter</a></li>
+      </ul>
+    </section>
+
+    <section class="contact-form-section">
+      <h2>Send Me a Message</h2>
+      <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Benidict Sayson. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
